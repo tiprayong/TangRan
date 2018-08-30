@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">TangRan</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_server_fragment">Server Side</string>
+    <string name="hello_client_fragment">Client Side</string>
+
+    <!-- TODO: Code String -->
+    <string name="search_order">SEARCH ORDER</string>
+    <string name="new_client">NEW CLIENT</string>
+    <string name="new_food_menu">NEW FOOD MENU</string>
+    <string name="currency">\u0020THB</string>
+    <string name="server_ip">Server :\u0020</string>
+    <string name="client">Client :\u0020</string>
+    <string name="location">Location :\u0020</string>
+    <string name="ordering">Ordering</string>
+    <string name="view_media">View Media</string>
+    <string name="check_bill">Check Bill</string>
+    <string name="edit_order">Edit Order</string>
+    <string name="cancel_order">Cancel Order</string>
+    <string name="deviece_ip_address">Device IP Address :\u0020</string>
+
+    <!--TODO; Filter -->
+    <string name="ip_address_filter">0123456789"."</string>
+    <string name="port_filter">0123456789</string>
+    <string name="identity_filter">":""|""[""]""{""}""("")""!""@""#""$""%"</string>
+</resources>

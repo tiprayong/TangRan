@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/deviceAddressTV"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Server IP Address : " />
+
+        <EditText
+            android:id="@+id/serverAddressET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textFilter"
+            android:digits="@string/ip_address_filter"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Server Name : " />
+
+        <EditText
+            android:id="@+id/serverNameET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textFilter"
+            android:digits="@string/identity_filter"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cancelAddressBT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@android:drawable/ic_menu_revert"
+            android:drawableStart="@android:drawable/ic_menu_revert" />
+
+        <Button
+            android:id="@+id/setAddressBT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@android:drawable/ic_menu_save"
+            android:drawableStart="@android:drawable/ic_menu_save"
+            />
+    </LinearLayout>
+
+</LinearLayout>

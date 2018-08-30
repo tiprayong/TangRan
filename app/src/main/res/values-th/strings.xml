@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">TangRan</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_server_fragment">Server Side</string>
+    <string name="hello_client_fragment">Client Side</string>
+
+    <!-- TODO: Code String -->
+    <string name="new_client">เพิ่มโต๊ะลูกค้า</string>
+    <string name="new_food_menu">เพิ่มรายการอาหาร</string>
+    <string name="currency">\u0020บาท</string>
+    <string name="amount">จำนวน\u0020</string>
+    <string name="price">ราคา\u0020</string>
+    <string name="total">รวม\u0020</string>
+    <string name="server_ip">ครัว :\u0020</string>
+    <string name="client">โต๊ะ :\u0020</string>
+    <string name="location">สถานที่ :\u0020</string>
+    <string name="ordering">สั่งอาหาร</string>
+    <string name="view_media">ตัวอย่าง</string>
+    <string name="check_bill">ค่าใช้จ่าย</string>
+    <string name="edit_order">แก้ไขสรายการั่งอาหาร</string>
+    <string name="cancel_order">ยกเลิกรายการสั่งอาหาร</string>
+    <string name="deviece_ip_address">Device IP Address :\u0020</string>
+
+    <!--TODO; Filter -->
+    <string name="ip_address_filter">0123456789"."</string>
+    <string name="port_filter">0123456789</string>
+    <string name="identity_filter">":""|""[""]""{""}""("")""!""@""#""$""%"</string>
+</resources>

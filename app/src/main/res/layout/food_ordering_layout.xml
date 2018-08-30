@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/foodOrderNameTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            />
+        <TextView
+            android:id="@+id/foodOrderPriceTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            />
+
+        <EditText
+            android:id="@+id/foodOrderAmountET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textFilter"
+            android:digits="@string/port_filter"
+            android:text="1"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/foodOrderAdditionET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ADDITION" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cancelFoodOrderBT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@android:drawable/ic_menu_revert"
+            android:drawableStart="@android:drawable/ic_menu_revert" />
+         <Button
+             android:id="@+id/foodOrderBT"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:drawableLeft="@android:drawable/ic_menu_send"
+             />
+
+    </LinearLayout>
+
+
+</LinearLayout>
